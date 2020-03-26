@@ -1,0 +1,204 @@
+#kanban {
+  white-space: nowrap;
+}
+
+.list {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: rgba(192, 192, 192, 0.4);
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+}
+
+.list-title {
+  position: relative;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.list-title span {
+  background-color: #2171c1;
+  border-radius: .3rem;
+  color: #fff;
+  font-size: 68%;
+  font-weight: 400;
+  margin-left: 2px;
+  display: inline-block;
+  padding: .25em .4em;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  cursor: pointer;
+}
+
+.control-icon{
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  color: gray !important;
+  cursor: pointer;
+  border-radius: 3px;
+  -webkit-transition: .2s;
+  transition: all .2s;
+  background: none !important;
+}
+
+.scrollable-list {
+  height: 650px;
+  width: 260px;
+}
+
+.sortable-cards {
+  min-height: 650px;
+}
+
+.p-card{
+  font-size: 14px !important;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  box-sizing: border-box;
+  width: 230px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-subject {
+  padding-bottom: 10px;
+}
+
+.card-assignee {
+  opacity: 0.6;
+}
+
+.card-priority {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 5px;
+  width: 5px;
+  border-radius: 2px;
+  background: #86C285;
+}
+
+.card-due {
+  text-align: left;
+  color: rgba(0, 0, 0, 0.71);
+  font-size: 12px;
+}
+
+.priority-1 {
+  background: #ADADAD;
+}
+
+.priority-2 {
+  background: #86C285;
+}
+
+.priority-3 {
+  background: #EDC578;
+}
+
+.priority-4 {
+  background: #EF7D59;
+}
+.fit-content{
+   height: fit-content;
+}
+.btn-add{
+  margin-top: 0px;
+  background-color:rgba(192,192,192,0.5) !important;
+  border: none;
+}
+/*pop-up*/
+::ng-deep .dx-sortable {
+  display: block
+}
+::ng-deep #container {
+  padding: 10px;
+}
+::ng-deep #container ul {
+  list-style-type: none;
+  text-align: center;
+}
+::ng-deep #container ul li {
+  display: inline-block;
+  width: 160px;
+  margin: 10px;
+}
+::ng-deep #container ul li img{
+  width: 100px;
+}
+::ng-deep .button-info {
+  margin: -10px;
+}
+::ng-deep .dx-popup-content p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+/*end pop-up*/
+
+/*box*/
+::ng-deep .rect{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+  height: 100%;
+}
+::ng-deep .demo-light{
+  background: rgba(245, 229, 166, 0.5)
+}
+::ng-deep .demo-dark{
+  background: rgba(148, 215, 199, 0.5);
+}
+::ng-deep .demo-dark.header{
+  background: rgba(243, 158, 108, 0.5);
+}
+::ng-deep .demo-dark.footer{
+  background: rgba(123, 155, 207, 0.5);
+}
+::ng-deep .small{
+  height: 50px;
+  border: 1px solid lightgray;
+}
+/*end box*/
+
+/*form*/
+::ng-deep .widget-container {
+  margin-right: 320px;
+  padding: 20px;
+  max-width: 550px;
+  min-width: 300px;
+}
+::ng-deep #form {
+  margin-top: 25px;
+}
+::ng-deep .options {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 260px;
+  top: 0;
+  background-color: rgba(191, 191, 191, 0.15);
+}
+::ng-deep .caption {
+  font-size: 18px;
+  font-weight: 500;
+}
+::ng-deep.option {
+  margin-top: 10px;
+}
+/*end form*/

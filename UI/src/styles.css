@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("./assets/background.jpg");
+  margin: 0px ;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+.app{
+  text-align: left;
+}
+
+.nav-header {
+  height: 56px;
+  line-height: 55px;
+  background-color: #2171c1;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#logo {
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+}

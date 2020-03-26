@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "plantracker-sanho": {
+      "hosting": {
+        "Kanban": [
+          "plantracker-sanho"
+        ]
+      }
+    }
+  }
+}

@@ -7,6 +7,4 @@ Kanban-BE/Kanban.Repository/bin
 Kanban-BE/Kanban.Repository/obj
 Kanban-BE/Kanban.Service/bin
 Kanban-BE/Kanban.Service/obj
-Kanban-UI/node_modules
-Kanban-UI/.firebase
-Kanban-UI/.idea
+UI/node_modules
